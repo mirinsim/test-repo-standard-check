@@ -14,7 +14,7 @@ var rootCmd = &cobra.Command{
 This is a demonstration of repository standards and bootstrap workflow.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Default action when no subcommand is provided
-		cmd.Help()
+		_ = cmd.Help()
 	},
 }
 
